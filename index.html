@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Sale - Items for Sale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- <h1>Moving Sale - Items Available</h1> -->
+            <p>All items bought within the last year and are in very good condition.</p>
+        </header>
+
+        <main>
+            <div class="table-container">
+                <table id="products-table">
+                    <thead>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Market Price</th>
+                            <th>My Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="products-tbody">
+                        <!-- Products will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <h3>Contact Me</h3>
+                <p>📞 Phone: <a href="tel:+1234567890">+91 9564122990</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal">
+        <div class="modal-content">
+            <div class="image-gallery">
+                <button class="nav-btn prev-btn" id="prev-btn">&#8249;</button>
+                <img id="modal-image" src="" alt="Product Image">
+                <button class="nav-btn next-btn" id="next-btn">&#8250;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="products.js"></script>
+    <script src="image-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
