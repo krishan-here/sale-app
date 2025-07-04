@@ -1,53 +1,47 @@
 // Product data - Add your items here
 const products = [
-    {
-        name: "Living Room Sofa Set",
-        marketPrice: 25000,
-        sellingPrice: 15000,
-        folder: "sofa"
-    },
-    {
-        name: "Samsung 43\" Smart TV",
-        marketPrice: 35000,
-        sellingPrice: 22000,
-        folder: "tv"
-    },
-    {
-        name: "Dining Table with 4 Chairs",
-        marketPrice: 18000,
-        sellingPrice: 12000,
-        folder: "dining-table"
-    },
-    {
-        name: "Double Bed with Mattress",
-        marketPrice: 20000,
-        sellingPrice: 13000,
-        folder: "bed"
-    },
-    {
-        name: "Refrigerator - LG 190L",
-        marketPrice: 16000,
-        sellingPrice: 10000,
-        folder: "refrigerator"
-    },
-    {
-        name: "Washing Machine - Front Load",
-        marketPrice: 28000,
-        sellingPrice: 18000,
-        folder: "washing-machine"
-    },
-    {
-        name: "Study Table with Chair",
-        marketPrice: 8000,
-        sellingPrice: 5000,
-        folder: "study-table"
-    },
-    {
-        name: "Microwave Oven",
-        marketPrice: 12000,
-        sellingPrice: 7500,
-        folder: "microwave"
-    }
+  {
+    name: 'Mattress',
+    marketPrice: 1000,
+    sellingPrice: 500,
+    folder: 'mattress',
+  },
+  {
+    name: 'Ikea mirror + setup',
+    marketPrice: 2000,
+    sellingPrice: 1000,
+    folder: 'mirror',
+  },
+  {
+    name: 'Electric induction',
+    marketPrice: 3400,
+    sellingPrice: 2000,
+    folder: 'induction',
+  },
+  {
+    name: 'Mosquito net',
+    marketPrice: 1100,
+    sellingPrice: 500,
+    folder: 'net',
+  },
+  {
+    name: 'Bathroom essentials',
+    marketPrice: 1000,
+    sellingPrice: 500,
+    folder: 'bathroom',
+  },
+  {
+    name: 'Cleaning essentials',
+    marketPrice: 1000,
+    sellingPrice: 500,
+    folder: 'clean',
+  },
+  {
+    name: 'Kitchen essentials',
+    marketPrice: 2000,
+    sellingPrice: 1000,
+    folder: 'kitchen',
+  },
 ];
 
 // You can add more products by copying the format above
