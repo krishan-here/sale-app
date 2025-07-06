@@ -1,12 +1,6 @@
 // Product data - Add your items here
 const products = [
   {
-    name: 'Mattress',
-    marketPrice: 1000,
-    sellingPrice: 500,
-    folder: 'mattress',
-  },
-  {
     name: 'Ikea mirror + setup',
     marketPrice: 2000,
     sellingPrice: 1000,
@@ -19,10 +13,28 @@ const products = [
     folder: 'induction',
   },
   {
+    name: 'Mattress',
+    marketPrice: 900,
+    sellingPrice: 450,
+    folder: 'mattress',
+  },
+  {
     name: 'Mosquito net',
-    marketPrice: 1100,
+    marketPrice: 1000,
     sellingPrice: 500,
     folder: 'net',
+  },
+  {
+    name: 'Table',
+    marketPrice: 379,
+    sellingPrice: 200,
+    folder: 'table',
+  },
+  {
+    name: 'Ikea memo board',
+    marketPrice: 699,
+    sellingPrice: 0,
+    folder: 'board',
   },
   {
     name: 'Bathroom essentials',
