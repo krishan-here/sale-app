@@ -36,11 +36,17 @@ const imageList = {
     '19.jpg',
     '20.jpg',
     '21.jpg',
+    '22.jpg',
+    '23.jpg',
+    '24.jpg',
+    '25.jpg',
   ],
   mattress: ['1.jpg', '2.jpg', '3.jpg'],
   mirror: ['1.avif', '2.avif', '3.jpg', '4.jpg'],
   net: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
   table: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+  cooker: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg'],
+  iron: ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
 };
 
 // Function to get images for a folder
